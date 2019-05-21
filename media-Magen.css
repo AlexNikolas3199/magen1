@@ -1,0 +1,50 @@
+@media  screen and (max-width:968px){
+#cool{
+		display: block;
+		margin-top:15px;
+		z-index: 1;
+		cursor: pointer;
+		width:32px;
+	height:21px;
+	top:2px;
+	left:6px;
+	background: #6f6e6d;
+	border-radius: 2px;
+	 position: fixed;
+	transition: 0.3s;
+	}
+#move{
+		 background: #880e4f;
+         position: fixed;
+         width: 300px;
+         left:-305px;
+         top:0px;
+         height:1000px;
+         display:flex;
+         transition: 0.3s;
+		}
+#move a:nth-child(1){
+	margin-top:-70px;
+}		
+#move a:nth-child(2){
+	margin-top:-280px;
+}
+#move a:nth-child(3){
+	margin-top:-470px;
+}
+#move a:nth-child(4){
+	margin-top:-700px;
+}
+#move a:nth-child(5){
+	margin-top:-850px;
+}
+
+
+.mave{
+    	transform:translateX(305px)
+    }
+
+.up{
+    transform: translateX(30px) rotate(180deg)
+   }
+}

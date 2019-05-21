@@ -1,0 +1,10 @@
+
+@media  screen and (max-width:968px){
+.container{
+	width: 80%;
+}
+h1{
+	font-size: 60px;
+	text-transform: uppercase;
+}
+}

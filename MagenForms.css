@@ -1,0 +1,44 @@
+h1{
+	font-size: 70px;
+	text-transform: uppercase;
+}
+.container{
+	width: 60%;
+	background: #0d47a1;
+	border-radius: 20px;
+	box-shadow: 10px 10px 10px #1a237e
+}
+
+.box span{
+ text-align: center;
+ vertical-align: middle;
+ margin-top:20px;
+}
+h3{
+	font-size: 30px;
+	margin-top:20px;
+	margin-bottom: 0px;
+	text-transform: uppercase;
+}
+.box input{
+	margin: 0px 50px;
+	border-radius: 10px;
+	border:solid 5px #231f20 ;
+	padding:13px 10px 10px 15px;
+	outline: none;
+	font-size: 20px;
+	transition: 0.3s
+}
+
+.box input:focus{
+	box-shadow: 0 7px 10px 10px #1a237e
+}
+
+input[type="submit"]{
+	 margin-top:70px;
+	 margin-bottom: 70px
+}
+input[type="submit"]:hover{
+ box-shadow: 0 0 10px 10px #1a237e;
+
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Magen</title>
+	<link rel="stylesheet" href="Magen.css">
+    <link rel="stylesheet" href="animate.css">
+    <link rel="stylesheet" href="media-Magen.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<script src="wow.min.js"></script>
+    <script>new WOW().init(); </script>
+</head>
+<body>
+	 <div class="knopka" id="cool">
+    	<div class="lan"></div>
+    	<div class="lan"></div>
+    	<div class="lan"></div>
+     </div>
+    <nav class=" wow fadeInDown">
+	 <h1  class="logo" data-wow-duration="1s">magen</h1>
+	 <div class="flex-container">
+	 <span>
+	  <i class="fa fa-clock-o" aria-hidden="true"></i>
+	  <p>Время работы:</p>
+	  <p>24/7</p>
+	 </span>
+	 <span>
+	  <i class="fa fa-phone" aria-hidden="true"></i>
+	  <p>Номер телефона:</p>
+	  <p>+7772889728</p>
+     </span>
+     <span>
+	  <i class="fa fa-envelope aria-hidden="true"></i>
+	  <p>Почта:</p>
+	  <p>golden9208@gmail.com</p>
+     </span>
+ </div>
+    </nav>
+    <article class="wow fadeInDown " id="move">
+    	<a href="">о компании</a>
+    	<a href="">раскрытие информации</a>
+    	<a href="">новости</a>
+    	<a href="">информация</a>
+    	<a href="MagenForms.html">Cдача показаний</a>
+    	
+    </article>
+     <section class=" foreword flex-container">
+     	<h2 class="wow fadeInRight ">О нас</h2>
+	<p data-wow-duration="1s" class="wow fadeInRight " >We controle company .</p>
+   
+	<div class="flex-container wow fadeInUp " >
+	 <div class="card-container flex-container">
+		<button>УВЕЛИЧИТЬ</button>
+		<button>ПОСМОТРЕТЬ</button>
+		<p>ВНИМАНИЕ</p>
+	</div>
+	<div class="card-container flex-container">
+		<button>УВЕЛИЧИТЬ</button>
+		<button>ПОСМОТРЕТЬ</button>
+		<p>ВНИМАНИЕ</p>
+	</div>
+	<div class="card-container flex-container">
+		<button>УВЕЛИЧИТЬ</button>
+		<button>ПОСМОТРЕТЬ</button>
+		<p>ВНИМАНИЕ</p>
+	</div>
+	<div class="card-container flex-container">
+		<button>УВЕЛИЧИТЬ</button>
+		<button>ПОСМОТРЕТЬ</button>
+		<p>ВНИМАНИЕ</p>
+	</div>
+	<div class="card-container flex-container">
+		<button>УВЕЛИЧИТЬ</button>
+		<button>ПОСМОТРЕТЬ</button>
+		<p>ВНИМАНИЕ</p>
+	</div>
+	<div class="card-container flex-container">
+		<button>УВЕЛИЧИТЬ</button>
+		<button>ПОСМОТРЕТЬ</button>
+		<p>ВНИМАНИЕ</p>
+	</div>
+	<div class="card-container flex-container">
+		<button>УВЕЛИЧИТЬ</button>
+		<button>ПОСМОТРЕТЬ</button>
+		<p>ВНИМАНИЕ</p>
+	</div>
+	<div class="card-container flex-container">
+		<button>УВЕЛИЧИТЬ</button>
+		<button>ПОСМОТРЕТЬ</button>
+		<p>ВНИМАНИЕ</p>
+	</div>
+	</div>
+	<div class="flex-container wow fadeInLeft">
+		<button class=" butten0all">ПОСМОТРЕТЬ ВСЕ</button>
+	</div>	
+   </section>
+     <script>
+   	var dav=document.getElementById('cool');
+   	var div=document.getElementById('move');
+   
+   	dav.onclick=function(){
+   		if(div.classList.contains("mave")){
+   			div.classList.remove("mave");
+   			dav.classList.remove("up");
+   		}
+   		else{
+   			div.classList.add("mave");
+   	  dav.classList.add("up");
+   		}
+   	}
+   	$(document).ready(function() {
+  $('.image-link').magnificPopup({type:'image'});
+});
+   	
+   </script>
+</body>
+</html>
