@@ -13,7 +13,7 @@ body{
 font-family:"Certege", "QuickTechBold"; 
 	margin:0;
 	padding: 0;
-	margin-bottom: -30px;
+
 	background:#1a237e;
 }
 .flex-container{
@@ -31,7 +31,7 @@ font-family:"Certege", "QuickTechBold";
 	background: #6f6e6d;
 	border-radius: 2px;
 	position: absolute;
-	transition: 0.3s
+	transition: 0.3s;
 }
 .lan{
 	width:29px;
@@ -78,11 +78,13 @@ font-family:"Certege", "QuickTechBold";
 }
 nav{
 	background:linear-gradient(5deg ,#1a237e  ,#1e88e5) ;
+	width:100%;
    display: flex;
 	justify-content:space-between;
 	align-items: center;
 	flex-wrap: wrap;
 }
+
 nav div{
 	margin-top: 50px;
 	margin-right:200px;
@@ -109,12 +111,17 @@ nav span:hover i{
 	color:#64b5f6 ;
 }
 #move{
+	background: #1976d2;
+	z-index: 2;
+}
+.overflowbox{
+	margin: 0;
+	padding: 0;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
-	background: #1976d2;
-	z-index: 2
+	overflow: auto;
 }
 article a{
 	margin: 20px;
@@ -124,7 +131,6 @@ article a{
 	text-align: center; 
 	text-decoration: none;
 	text-transform: uppercase;
-	
 	color:#1a237e;
 	padding: 15px;
 	border-radius: 20px;

@@ -2,7 +2,7 @@
 #cool{
 		display: block;
 		margin-top:15px;
-		z-index: 1;
+		z-index: 3;
 		cursor: pointer;
 		width:32px;
 	height:21px;
@@ -14,7 +14,7 @@
 	transition: 0.3s;
 	}
 #move{
-		 background: #880e4f;
+		background: #1976d2;
          position: fixed;
          width: 300px;
          left:-305px;
@@ -38,7 +38,13 @@
 #move a:nth-child(5){
 	margin-top:-850px;
 }
-
+.overflowbox{
+	display: block;
+	text-align: center;
+}
+.overflowbox a{
+	margin-top:300px;
+}
 
 .mave{
     	transform:translateX(305px)
@@ -47,4 +53,7 @@
 .up{
     transform: translateX(30px) rotate(180deg)
    }
+.card-container{
+	width:160px;
+}
 }
