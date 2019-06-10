@@ -114,7 +114,7 @@ nav span:hover i{
 	align-items: center;
 	flex-wrap: wrap;
 	background: #1976d2;
-
+	z-index: 2
 }
 article a{
 	margin: 20px;
@@ -175,6 +175,7 @@ section>div{
 	border-radius:10px;
 	overflow: hidden;
 	transition: 0.3s;
+	z-index: 1
 }
 .card-container button{
 	background:white;
