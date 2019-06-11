@@ -1,12 +1,22 @@
+
 h1{
 	font-size: 70px;
+	font-weight: normal;
 	text-transform: uppercase;
+	color: #64b5f6 ;
+	text-shadow: 3px 3px 3px #1a237e ;
+	margin: 20px
+}
+h3{
+	color: #64b5f6 ;
+	text-shadow: 3px 3px 3px #1a237e ;
 }
 .container{
+	margin-bottom: 20px;
 	width: 60%;
-	background: #0d47a1;
 	border-radius: 20px;
-	box-shadow: 10px 10px 10px #1a237e
+	box-shadow: 5px 5px 15px #1a231f;
+	background: #303f9f ;
 }
 
 .box span{
@@ -23,22 +33,42 @@ h3{
 .box input{
 	margin: 0px 50px;
 	border-radius: 10px;
-	border:solid 5px #231f20 ;
+	border:solid 5px #1a237e ;
 	padding:13px 10px 10px 15px;
 	outline: none;
+	background: #64b5f6 ;
+	color:#1a237e ;
 	font-size: 20px;
 	transition: 0.3s
 }
 
 .box input:focus{
-	box-shadow: 0 7px 10px 10px #1a237e
+	box-shadow: 0 3px 10px 4px #1a231f
 }
 
 input[type="submit"]{
 	 margin-top:70px;
-	 margin-bottom: 70px
+	 margin-bottom: 70px;
+	 color: #1a237e  ;
+	 animation: puls 0.8s normal infinite;
+	  transform: translateY(-25px);
 }
 input[type="submit"]:hover{
- box-shadow: 0 0 10px 10px #1a237e;
-
+	 animation: puls 0.8s normal infinite, yes 0.8s normal infinite;
+}
+@keyframes puls{
+	0%{
+       box-shadow: 0 0 1px 0 rgba(0,0,0,0.15)
+	}
+	100%{
+         box-shadow: 0 0 1px 30px rgba(0,0,0,0)
+	}
+}
+@keyframes yes{
+	0%,100%{
+      transform: translateY(-25px);
+	}
+	50%{
+      transform: translateY(-15px);
+	}
 }

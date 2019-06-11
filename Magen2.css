@@ -1,0 +1,211 @@
+@font-face {
+font-family: "Certege";
+src:url(10648.ttf)
+}
+
+@font-face {
+font-family: "QuickTechBold" ;
+ src:url("quicktech_bold.ttf");
+
+}
+body{
+	font-family:"Certege", "QuickTechBold"; 
+	margin:0;
+	padding: 0;
+	background:#283593 ;
+}
+ .overflowbox::-webkit-scrollbar{
+	display: none
+}
+
+.flex-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.flex-space{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.logo{
+	font-family:  "QuickTechBold";
+	margin:10px 0 10px 10px;
+	padding: 0;
+	font-size: 100px;
+	color: #64b5f6 ;
+	text-shadow: 5px 5px 9px #1a231f;
+	transform: skew(20deg);
+	transition: 0.3s ease-in-out;
+}
+.logo:hover{
+	color:#bbdefb;
+	transform: skew(20deg) translate(10px ,0);
+}
+
+.card{
+	padding: 10px;
+	margin: 20px 20px 20px 0;
+	text-align: center;
+	background: #303f9f ;
+	box-shadow: 3px 3px 10px #1a231f;
+	border-radius: 10px;
+	color: #64b5f6 ;
+	transition: 0.3s
+}
+.card:last-child{
+	margin: 20px 0 20px 0;
+}
+.card:hover{
+	color:#bbdefb;
+	transform: translateY(5px);
+}
+.card i{
+	transform: scale(2.4);
+	margin-top:5px;
+}
+
+.knopka{
+	display: none;
+	width:50px;
+	height:50px;
+	top:3px;
+	left:6px;
+	background: #303f9f ;
+	border-radius: 2px;
+	position: fixed;
+	border: solid 3px  #64b5f6 ;
+	border-radius: 50%;
+	transition: 0.3s;
+}
+.lan{
+	width:29px;
+	height:3px;
+	background:  #64b5f6 ;
+	margin: 5px auto;
+	border-radius: 10%;
+	transition: 0.3s
+}
+.lan:first-child{
+	margin-top:15px;
+}
+
+
+aside{
+	background: #303f9f ;
+	box-shadow: 3px 3px 10px #1a231f;
+	z-index: 2;
+	margin-bottom:40px;
+}
+aside .overflowbox {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+aside .overflowbox a{
+	margin: 1%;
+	padding: 0;
+	font-size: 40px;
+	color: #64b5f6 ;
+	text-transform: uppercase;
+	text-decoration: none;
+	max-width: 190px;
+	text-align: center;
+	border:none;
+	outline:none;
+	transition: 0.3s;
+}
+aside .overflowbox a:last-child{
+	margin-right:0;
+}
+aside .overflowbox a:first-child{
+	margin-left:0;
+}
+aside .overflowbox a:hover{
+	color:#bbdefb;
+}
+
+.cardconmax{
+	padding: 0;
+	width:990px; 
+}
+.card-container{
+	max-width:180px; 
+	padding: 10px;
+	margin:5px;
+	background:url(prosesor.jpg) no-repeat;
+	background-size: cover; 	
+	background-position: center;
+	border:solid 3px #64b5f6;
+	border-radius:10px;
+	overflow: hidden;
+	transition: 0.3s;
+	z-index: 1
+}
+.card-container button{
+	background:white;
+	border: solid 2px white;
+	border-radius: 7px;
+	margin: 3px;
+	font-family:"Certege";
+	font-size: 25px;
+	outline: none;
+	color:#64b5f6;
+	padding: 5px;
+	box-shadow: 0 0 10px #90caf9 ;
+	transform: scale(0);
+	transition: 0.3s;
+	opacity: 0
+}
+.card-container p{
+	color: #64b5f6 ;
+	font-size: 30px;
+	margin: 0;
+	transform: scale(0);
+	transition: 0.3s;
+	opacity: 0
+}
+
+.card-container:hover{
+	background: url(light-waves.jpg) no-repeat;
+		background-size: cover;
+	background-position: center;
+}
+.card-container:hover button,
+.card-container:hover p{
+	transform: scale(1);
+	opacity: 1;
+}
+
+.card-container button:hover{
+	background: none;
+	color: white
+}
+.buttonbox{
+	margin: 10px 300px
+}
+.butten0all{
+	background:white;
+	border: solid 2px white;
+	border-radius: 7px;
+	margin: 15px;
+	font-size: 27px;
+	outline: none;
+	color:#2196f3;
+	font-family:"Certege";
+	padding: 10px;
+	box-shadow: 0 0 10px #90caf9 ;
+	transition: 0.3s;
+}
+.butten0all:hover{
+	background: none;
+	color: white;
+	transform: scale(1.2);
+}
+
+
+
+

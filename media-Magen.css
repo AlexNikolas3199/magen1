@@ -1,59 +1,90 @@
-@media  screen and (max-width:968px){
-#cool{
+@media  screen and (max-width:938px){
+.knopka{
 		display: block;
-		margin-top:15px;
-		z-index: 3;
 		cursor: pointer;
-		width:32px;
-	height:21px;
-	top:2px;
-	left:6px;
-	background: #6f6e6d;
-	border-radius: 2px;
-	 position: fixed;
-	transition: 0.3s;
-	}
+		z-index: 3
+		}
+.knopka:hover{
+	border:solid 3px #bbdefb;
+}
+.knopka:hover .lan{
+	background:#bbdefb;
+}
 #move{
 		background: #1976d2;
          position: fixed;
-         width: 300px;
-         left:-305px;
+         width: 34%;
+         left:-36%;
          top:0px;
-         height:1000px;
-         display:flex;
+         height: 100vh;
          transition: 0.3s;
 		}
-#move a:nth-child(1){
-	margin-top:-70px;
-}		
-#move a:nth-child(2){
-	margin-top:-280px;
+
+    .mave{
+    	transform:translateX(105%)
+    }
+    .up{
+    	transform: rotate(180deg)
+    }
+   .len1{
+        transform: translateY(8px) rotate(45deg);
+   }
+   .len2{
+    	opacity: 0
+   }
+   .len3{
+		 transform: translateY(-8px) rotate(-45deg);
+   }
+.logo{
+		font-size: 45px;
+		margin-top:60px;
 }
-#move a:nth-child(3){
-	margin-top:-470px;
-}
-#move a:nth-child(4){
-	margin-top:-700px;
-}
-#move a:nth-child(5){
-	margin-top:-850px;
+.card{
+	margin-top:0;
+	margin-bottom: 0
 }
 .overflowbox{
 	display: block;
 	text-align: center;
+	overflow: auto
 }
-.overflowbox a{
-	margin-top:300px;
+aside .overflowbox a{
+	padding: 20px 0;
+	margin: 0;
+	max-width: 325px;
+	width: 325px;
+	border-bottom: solid 5px #303f9f;
+	background: #1976d2;
+	font-size: 20px
+}
+aside .overflowbox a:first-of-type{
+	margin-top:65px;
+	border-top: solid 5px #303f9f;
+}
+aside .overflowbox a:hover{
+	background: #303f9f;
+ }
+ .buttonbox{
+	margin: 0
 }
 
-.mave{
-    	transform:translateX(305px)
-    }
+}
 
-.up{
-    transform: translateX(30px) rotate(180deg)
-   }
+
+
+@media  screen and (max-width:450px){
+	.cardconmax{
+	min-width: 100%
+}
 .card-container{
-	width:160px;
+	max-width:37%; 
+	margin: 4px;
 }
+}
+
+@media  screen and (max-height:410px){
+	.overflowbox{
+		height:100vh;
+	}
+
 }

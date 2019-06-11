@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Magen</title>
+	<link rel="stylesheet" href="Magen2.css">
+    <link rel="stylesheet" href="animate.css">
+    <link rel="stylesheet" href="media-Magen.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="wow.min.js"></script>
+    <script>new WOW().init(); </script>
+</head>
+<body>
+	<nav class=" wow fadeInDown">
+	 <div class="flex-space" >
+	 	<h1  class="logo"  data-wow-duration="1s">magen</h1>
+	 	<div class="flex-container" >
+	 		<div class="card" >
+	  			<i class="fa fa-clock-o" aria-hidden="true"></i>
+	  			<p>Время работы:</p>
+	  			<p>24/7</p>
+			</div>
+	 		<div class="card">
+	  			<i class="fa fa-phone" aria-hidden="true"></i>
+	  			<p>Номер телефона:</p>
+	  			<p>+7772889728</p>
+     		</div>
+     		<div class="card">
+	  			<i class="fa fa-envelope aria-hidden="true"></i>
+	  			<p>Почта:</p>
+	  			<p>golden9208@gmail.com</p>
+     		</div>
+     </div>
+ </div>
+    </nav>
+  <div class="knopka" id="button">
+    	<div class="lan " id="len1"></div>
+    	<div class="lan " id="len2"></div>
+    	<div class="lan " id="len3"></div>
+  </div>
+  <aside class="wow fadeInDown " id="move">
+    <div class="overflowbox">
+    	<a class="f" href="#">о компании</a>
+    	<a class="ff" href="#">раскрытие информации</a>
+    	<a class="fff" href="#">новости</a>
+    	<a class="ffff" href="#">информация</a>
+    	<a  href="MagenForms.html">Cдача показаний</a>
+  	</div>
+  </aside>
+  <section class="flex-container">
+	  	<div class="flex-container cardconmax wow fadeIn">
+	  		<div class="card-container flex-container">
+				<button>УВЕЛИЧИТЬ</button>
+				<button>ПОСМОТРЕТЬ</button>
+				<p>ВНИМАНИЕ</p>
+	  		</div>
+	  		<div class="card-container flex-container">
+				<button>УВЕЛИЧИТЬ</button>
+				<button>ПОСМОТРЕТЬ</button>
+				<p>ВНИМАНИЕ</p>
+	  		</div>
+	  		<div class="card-container flex-container">
+				<button>УВЕЛИЧИТЬ</button>
+				<button>ПОСМОТРЕТЬ</button>
+				<p>ВНИМАНИЕ</p>
+	  		</div>
+	  		<div class="card-container flex-container">
+				<button>УВЕЛИЧИТЬ</button>
+				<button>ПОСМОТРЕТЬ</button>
+				<p>ВНИМАНИЕ</p>
+	  		</div>
+	  		<div class="card-container flex-container">
+				<button>УВЕЛИЧИТЬ</button>
+				<button>ПОСМОТРЕТЬ</button>
+				<p>ВНИМАНИЕ</p>
+	  		</div>
+	  		<div class="card-container flex-container">
+				<button>УВЕЛИЧИТЬ</button>
+				<button>ПОСМОТРЕТЬ</button>
+				<p>ВНИМАНИЕ</p>
+	  		</div>
+	  		<div class="card-container flex-container">
+				<button>УВЕЛИЧИТЬ</button>
+				<button>ПОСМОТРЕТЬ</button>
+				<p>ВНИМАНИЕ</p>
+	  		</div>
+	  		<div class="card-container flex-container">
+				<button>УВЕЛИЧИТЬ</button>
+				<button>ПОСМОТРЕТЬ</button>
+				<p>ВНИМАНИЕ</p>
+	  		</div>
+		</div>
+	<div class="flex-container buttonbox wow fadeInLeft">
+			<button class=" butten0all">ПОСМОТРЕТЬ ВСЕ</button>
+		</div>	
+  </section>
+	<script>
+		var f=document.querySelector(".f");
+		var ff=document.querySelector(".ff");
+		var fff=document.querySelector(".fff");
+		var ffff=document.querySelector(".ffff");
+
+
+   	var dav=document.getElementById('button');
+   	var div=document.getElementById('move');
+   	var lin1=document.getElementById('len1');
+   	var lin2=document.getElementById('len2');
+   	var lin3=document.getElementById('len3');
+   
+   	dav.onclick=function(){
+   		if(div.classList.contains("mave")){
+   			div.classList.remove("mave");
+   			dav.classList.remove("up");
+   			lin1.classList.remove("len1");
+   			lin2.classList.remove("len2");
+   			lin3.classList.remove("len3");
+   		}
+   		else{
+   			div.classList.add("mave");
+   	  dav.classList.add("up");
+   	   lin1.classList.add("len1");
+   	   lin2.classList.add("len2");
+   	   lin3.classList.add("len3");
+   		}
+   	}
+   
+   	ff.onclick=function(){
+   		div.classList.remove("mave");
+   			dav.classList.remove("up");
+   			lin1.classList.remove("len1");
+   			lin2.classList.remove("len2");
+   			lin3.classList.remove("len3");
+   	}
+
+   	f.onclick=function(){
+   		div.classList.remove("mave");
+   			dav.classList.remove("up");
+   			lin1.classList.remove("len1");
+   			lin2.classList.remove("len2");
+   			lin3.classList.remove("len3");
+   	}
+   	fff.onclick=function(){
+   		div.classList.remove("mave");
+   			dav.classList.remove("up");
+   			lin1.classList.remove("len1");
+   			lin2.classList.remove("len2");
+   			lin3.classList.remove("len3");
+   	}
+   	ffff.onclick=function(){
+   		div.classList.remove("mave");
+   			dav.classList.remove("up");
+   			lin1.classList.remove("len1");
+   			lin2.classList.remove("len2");
+   			lin3.classList.remove("len3");
+   	}
+	</script>
+</body>
+</html>
