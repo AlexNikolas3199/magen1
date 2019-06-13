@@ -11,7 +11,7 @@
 	background:#bbdefb;
 }
 #move{
-		background: #1976d2;
+			background: #303f9f ;
          position: fixed;
          width: 34%;
          left:-36%;
@@ -43,32 +43,33 @@
 	margin-top:0;
 	margin-bottom: 0
 }
+
 .overflowbox{
 	display: block;
 	text-align: center;
-	overflow: auto
+	overflow: auto;
 }
 aside .overflowbox a{
 	padding: 20px 0;
 	margin: 0;
+	background:  #303f9f;
 	max-width: 325px;
 	width: 325px;
-	border-bottom: solid 5px #303f9f;
-	background: #1976d2;
+	border-bottom: solid 5px #1976d2;
 	font-size: 20px
 }
 aside .overflowbox a:first-of-type{
 	margin-top:65px;
-	border-top: solid 5px #303f9f;
+	border-top: solid 5px #1976d2;
 }
 aside .overflowbox a:hover{
-	background: #303f9f;
+	background: #1976d2;
  }
  .buttonbox{
 	margin: 0
 }
 
-}
+}	
 
 
 
@@ -80,7 +81,7 @@ aside .overflowbox a:hover{
 	max-width:37%; 
 	margin: 4px;
 }
-}
+ }
 
 @media  screen and (max-height:410px){
 	.overflowbox{
