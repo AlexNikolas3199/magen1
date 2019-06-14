@@ -5,12 +5,49 @@
 	<link rel="stylesheet" href="MagenForms.css">
 	<link rel="stylesheet" href="Magen2.css">
 	<link rel="stylesheet" href="media-MagenForms.css">
+	 <link rel="stylesheet" href="media-Magen.css">
   	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Сдача показаний</title>
 </head>
-<body>		
-	<h1 align="center">сдача показаний</h1>
-    <div class=" flex-container">
+<body>	
+<nav class=" wow fadeInDown">
+	 <div class="flex-space" >
+	 	<h1  class="logo"  data-wow-duration="1s">magen</h1>
+	 	<div class="flex-container" >
+	 		<div class="card" >
+	  			<i class="fa fa-clock-o" aria-hidden="true"></i>
+	  			<p>Время работы:</p>
+	  			<p>24/7</p>
+			</div>
+	 		<div class="card">
+	  			<i class="fa fa-phone" aria-hidden="true"></i>
+	  			<p>Номер телефона:</p>
+	  			<p>+7772889728</p>
+     		</div>
+     		<div class="card">
+	  			<i class="fa fa-envelope aria-hidden="true"></i>
+	  			<p>Почта:</p>
+	  			<p>golden9208@gmail.com</p>
+     		</div>
+     </div>
+ </div>
+    </nav>
+  <div class="knopka" id="button">
+    	<div class="lan " id="len1"></div>
+    	<div class="lan " id="len2"></div>
+    	<div class="lan " id="len3"></div>
+  </div>
+  <aside class="wow fadeInDown " id="move">
+    <div class="overflowbox">
+    	<a class="f" href="#">о компании</a>
+    	<a class="ff" href="#">раскрытие информации</a>
+    	<a class="ffff" href="#">информация</a>
+      <a class="fff" href="#">новости</a>
+    	<a  href="MagenForms.html">Cдача показаний</a>
+  	</div>
+  </aside>	
+	<h1 align="center">СДАЧА ПОККАЗАНИЙ</h1>
+    <form class=" flex-container">
        <div class="container">
        		<div class="important">
 				<h3>* - Обязательно к заполнению</h3>
@@ -18,29 +55,29 @@
 		<div class="box flex-container">
 		   <span>
 				<h3>Ваше ФИО *</h3>
-				<input type="text">
+				<input placeholder="Оконешников Иван Иванович" required type="text">
 		   </span>
 		</div>
 		<div class="box flex-container">
 		   <span>
 				<h3>Адрес *</h3>
-				<input type="text">
+				<textarea required></textarea>
 		   </span>
 		</div>
 		<div class="box flex-container">
 			<span>
 				<h3>Показания *</h3>
-				<input type="text">
+				<textarea required></textarea>
 		    </span>
 		</div>
 		<div class="box flex-container">
-		   <span>
+		   <span class="contact">
 				<h3>номер телефона</h3>
 				<input type="text">
 		   </span>
 		</div>
 		<div class="box flex-container">
-		   <span>
+		   <span class="contact">
 				<h3>Почта</h3>
 				<input type="text">
 		   </span>
@@ -52,6 +89,66 @@
 	        <address>magen.sakha@gmail.com</address>
 		</div>
 	 </div>
-	</div>
+	</form>
+	<script>
+		var f=document.querySelector(".f");
+		var ff=document.querySelector(".ff");
+		var fff=document.querySelector(".fff");
+		var ffff=document.querySelector(".ffff");
+
+
+   	var dav=document.getElementById('button');
+   	var div=document.getElementById('move');
+   	var lin1=document.getElementById('len1');
+   	var lin2=document.getElementById('len2');
+   	var lin3=document.getElementById('len3');
+   
+   	dav.onclick=function(){
+   		if(div.classList.contains("mave")){
+   			div.classList.remove("mave");
+   			dav.classList.remove("up");
+   			lin1.classList.remove("len1");
+   			lin2.classList.remove("len2");
+   			lin3.classList.remove("len3");
+   		}
+   		else{
+   			div.classList.add("mave");
+   	  dav.classList.add("up");
+   	   lin1.classList.add("len1");
+   	   lin2.classList.add("len2");
+   	   lin3.classList.add("len3");
+   		}
+   	}
+   
+   	ff.onclick=function(){
+   		div.classList.remove("mave");
+   			dav.classList.remove("up");
+   			lin1.classList.remove("len1");
+   			lin2.classList.remove("len2");
+   			lin3.classList.remove("len3");
+   	}
+
+   	f.onclick=function(){
+   		div.classList.remove("mave");
+   			dav.classList.remove("up");
+   			lin1.classList.remove("len1");
+   			lin2.classList.remove("len2");
+   			lin3.classList.remove("len3");
+   	}
+   	fff.onclick=function(){
+   		div.classList.remove("mave");
+   			dav.classList.remove("up");
+   			lin1.classList.remove("len1");
+   			lin2.classList.remove("len2");
+   			lin3.classList.remove("len3");
+   	}
+   	ffff.onclick=function(){
+   		div.classList.remove("mave");
+   			dav.classList.remove("up");
+   			lin1.classList.remove("len1");
+   			lin2.classList.remove("len2");
+   			lin3.classList.remove("len3");
+   	}
+	</script>
 </body>
 </html>

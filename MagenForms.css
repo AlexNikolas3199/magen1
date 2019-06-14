@@ -2,10 +2,9 @@
 h1{
 	font-size: 70px;
 	font-weight: normal;
-	text-transform: uppercase;
 	color: #64b5f6 ;
 	text-shadow: 3px 3px 3px #1a237e ;
-	margin: 20px
+	margin: 20px;
 }
 h3{
 	color: #64b5f6 ;
@@ -13,7 +12,7 @@ h3{
 }
 .container{
 	margin-bottom: 20px;
-	width: 60%;
+	width: 80%;
 	border-radius: 20px;
 	box-shadow: 5px 5px 15px #1a231f;
 	background: #303f9f ;
@@ -23,6 +22,13 @@ h3{
  text-align: center;
  vertical-align: middle;
  margin-top:20px;
+ width: 100%;
+}
+.box .contact{
+	width: 300px
+}
+.box:nth-child(3) span input{
+	height:200px;
 }
 h3{
 	font-size: 30px;
@@ -35,7 +41,7 @@ h3{
 	margin-left:20px;
 }
 .box input{
-	margin: 0px 50px;
+	margin: 0;
 	border-radius: 10px;
 	border:solid 5px #1a237e ;
 	padding:13px 10px 10px 15px;
@@ -43,7 +49,9 @@ h3{
 	background: #64b5f6 ;
 	color:#1a237e ;
 	font-size: 20px;
-	transition: 0.3s
+	transition: 0.3s;
+	width: 80%;
+	font-family:"Certege", "QuickTechBold";
 }
 
 .box input:focus{
@@ -54,8 +62,11 @@ input[type="submit"]{
 	 margin-top:70px;
 	 margin-bottom: 70px;
 	 color: #1a237e  ;
+	 width:170px;
+	 font-weight: bold;
 	 animation: puls 0.8s normal infinite;
 	  transform: translateY(-25px);
+	  font-family:"Certege", "QuickTechBold";
 }
 input[type="submit"]:hover{
 	 animation: puls 0.8s normal infinite, yes 0.8s normal infinite;
@@ -75,4 +86,16 @@ input[type="submit"]:hover{
 	50%{
       transform: translateY(-15px);
 	}
+}
+textarea{
+	margin: 0;
+	padding: 5px 0 0 5px;
+	width:90%;
+	height:300px;
+	background: #64b5f6 ;
+	border:solid 5px #1a237e ;
+	border-radius: 10px;
+	font-size: 30px;
+	color:#1a237e ;
+	font-family:"Certege", "QuickTechBold";
 }
