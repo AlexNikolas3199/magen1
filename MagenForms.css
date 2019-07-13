@@ -6,10 +6,6 @@ h1{
 	text-shadow: 3px 3px 3px #1a237e ;
 	margin: 20px;
 }
-h3{
-	color: #64b5f6 ;
-	text-shadow: 3px 3px 3px #1a237e ;
-}
 .container{
 	margin-bottom: 20px;
 	width: 80%;
@@ -22,20 +18,17 @@ h3{
  text-align: center;
  vertical-align: middle;
  margin-top:20px;
- width: 100%;
+ width:90%;
+}
+.box .fio{
+	min-width:330px;
+	max-width:600px 
 }
 .box .contact{
-	width: 300px
+	width: 300px;
 }
-.box:nth-child(3) span input{
-	height:200px;
-}
-h3{
-	font-size: 30px;
-	margin-top:20px;
-	margin-bottom: 0px;
-	text-transform: uppercase;
-}
+
+
 .important h3{
 	font-size: 20px;
 	margin-left:20px;
@@ -48,9 +41,9 @@ h3{
 	outline: none;
 	background: #64b5f6 ;
 	color:#1a237e ;
-	font-size: 20px;
+	font-size: 25px;
 	transition: 0.3s;
-	width: 80%;
+	width: 90%;
 	font-family:"Certege", "QuickTechBold";
 }
 
@@ -61,8 +54,9 @@ h3{
 input[type="submit"]{
 	 margin-top:70px;
 	 margin-bottom: 70px;
-	 color: #1a237e  ;
-	 width:170px;
+	 padding:13px 10px 10px 10px;
+	 color: #1a237e;
+	 width:140px;
 	 font-weight: bold;
 	 animation: puls 0.8s normal infinite;
 	  transform: translateY(-25px);
@@ -91,11 +85,15 @@ textarea{
 	margin: 0;
 	padding: 5px 0 0 5px;
 	width:90%;
-	height:300px;
+	height:200px;
 	background: #64b5f6 ;
 	border:solid 5px #1a237e ;
 	border-radius: 10px;
 	font-size: 30px;
 	color:#1a237e ;
 	font-family:"Certege", "QuickTechBold";
+	outline: none
+}
+.address{
+	height:70px;
 }

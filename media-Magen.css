@@ -74,6 +74,10 @@ aside .overflowbox a:hover{
 h1{
 	font-size: 50px
 }
+section .futuretext p {
+	font-size:22px;
+	
+}
 }	
 
 
@@ -89,7 +93,8 @@ h1{
  h1{
 	font-size: 30px
 }
- }
+
+}
 
 @media  screen and (max-height:410px){
 	.overflowbox{

@@ -8,14 +8,14 @@ font-family: "QuickTechBold" ;
  src:url("quicktech_bold.ttf");
 
 }
+html{
+	scroll-behavior: smooth;
+}
 body{
 	font-family:"Certege", "QuickTechBold"; 
 	margin:0;
 	padding: 0;
 	background:#283593 ;
-}
- .overflowbox::-webkit-scrollbar{
-	display: none
 }
 
 .flex-container{
@@ -23,6 +23,12 @@ body{
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
+}
+.wrap-r{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap-reverse;
 }
 .flex-space{
 	display: flex;
@@ -205,7 +211,28 @@ aside .overflowbox a:hover{
 	color: white;
 	transform: scale(1.2);
 }
-
+h3{
+	font-size: 30px;
+	margin-top:20px;
+	margin-bottom: 0;
+	text-transform: uppercase;
+	color: #64b5f6 ;
+	text-shadow: 3px 3px 3px #1a237e ;
+}
+section .futuretext{
+	margin:20px;
+	border:solid 5px  #64b5f6;
+	border-radius: 20px;
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+}
+section .futuretext p{
+	text-align:center;
+	color: #64b5f6;
+	font-size: 39px;
+	width:70%;
+}
 
 
 

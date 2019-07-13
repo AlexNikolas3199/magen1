@@ -28,9 +28,9 @@
 	  			<p>+7772889728</p>
      		</div>
      		<div class="card">
-	  			<i class="fa fa-envelope aria-hidden="true"></i>
+	  			<i class="fa fa-envelope" aria-hidden="true"></i>
 	  			<p>Почта:</p>
-	  			<p>golden9208@gmail.com</p>
+	  			<p>magen.sakha@gmail.com</p>
      		</div>
      </div>
  </div>
@@ -42,47 +42,47 @@
   </div>
   <aside class="wow fadeInDown " id="move">
     <div class="overflowbox">
-    	<a class="f" href="#">о компании</a>
-    	<a class="ff" href="#">раскрытие информации</a>
-    	<a class="ffff" href="#">информация</a>
-      <a class="fff" href="#">новости</a>
-    	<a  href="MagenForms.html">Cдача показаний</a>
+    <a class="f" href="index.html#1">о компании</a>
+      <a class="ff" href="index.html#2">раскрытие информации</a>
+      <a class="ffff" href="index.html#3">информация</a>
+      <a class="fff" href="index.html#4">новости</a>
+      <a  href="MagenForms.html">Cдача показаний</a>
   	</div>
   </aside>	
 	<h1 align="center" class="wow fadeInRight"> СДАЧА ПОКАЗАНИЙ</h1>
-    <form class=" flex-container">
-       <div class="container wow fadeInLeft">
+    <div  class=" flex-container">
+       <form  action="mail.php" method="POST" class="container wow fadeInLeft">
        		<div class="important">
 				<h3>* - Обязательно к заполнению</h3>
 			</div>
 		<div class="box flex-container">
-		   <span>
+		   <span class="fio">
 				<h3>Ваше ФИО *</h3>
-				<input placeholder="Оконешников Иван Иванович" required type="text">
+				<input name="name" placeholder="Оконешников Иван Иванович" required type="text">
 		   </span>
 		</div>
 		<div class="box flex-container">
 		   <span>
 				<h3>Адрес *</h3>
-				<textarea required></textarea>
+				<textarea class=address required name="address"></textarea>
 		   </span>
 		</div>
 		<div class="box flex-container">
 			<span>
 				<h3>Показания *</h3>
-				<textarea required></textarea>
+				<textarea name="someshet" required></textarea>
 		    </span>
 		</div>
 		<div class="box flex-container">
 		   <span class="contact">
 				<h3>номер телефона</h3>
-				<input type="text">
+				<input name="phone" type="text">
 		   </span>
 		</div>
 		<div class="box flex-container">
 		   <span class="contact">
 				<h3>Почта</h3>
-				<input type="text">
+				<input name="mail" type="text">
 		   </span>
 		</div>
 		<div class="box flex-container">
@@ -91,8 +91,8 @@
 		<div class="box flex-container">
 	        <address>magen.sakha@gmail.com</address>
 		</div>
-	 </div>
-	</form>
+	 </form>>
+	</div>
 	<script>
 		var f=document.querySelector(".f");
 		var ff=document.querySelector(".ff");

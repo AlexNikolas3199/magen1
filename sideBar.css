@@ -1,0 +1,59 @@
+
+.knopka{
+	display: none;
+	width:50px;
+	height:50px;
+	top:3px;
+	left:6px;
+	background: rgb(196, 70, 21) ;
+	border-radius: 2px;
+	position: fixed;
+	border: solid 3px  orange ;
+	border-radius: 50%;
+	transition: 0.3s;
+}
+.lan{
+	width:29px;
+	height:3px;
+	background: orange ;
+	margin: 5px auto;
+	border-radius: 10%;
+	transition: 0.3s
+}
+.lan:first-child{
+	margin-top:15px;
+}
+@media  screen and (max-width:938px){
+.knopka{
+		display: block;
+		cursor: pointer;
+		z-index: 3
+		}
+.knopka:hover{
+	border:solid 3px #bbdefb;
+}
+.knopka:hover .lan{
+	background:#bbdefb;
+}
+#move{		
+	left:-10%;
+	transition: 0.3s;
+}
+
+    .mave{
+    	transform:translateX(105%)
+    }
+    .up{
+    	transform: rotate(180deg)
+    }
+   .len1{
+        transform: translateY(8px) rotate(45deg);
+   }
+   .len2{
+    	opacity: 0
+   }
+   .len3{
+		 transform: translateY(-8px) rotate(-45deg);
+   }
+
+ }
